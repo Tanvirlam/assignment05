@@ -1,0 +1,118 @@
+
+*{  
+	
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+img{
+	max-width: 100%;
+	display: block;
+}
+body{
+    background-image: url(bae.jpg);
+    background-size:cover;
+	background-position: center;
+	overflow: hidden;
+}
+header{
+   background: black;
+   padding: 10px;
+}
+.container{
+	width: 770px;
+	margin: auto;
+	overflow: hidden;
+	
+}
+nav{
+	text-align: center;
+}
+nav ul{}
+nav > ul >li{
+    
+    display: inline-block;
+    vertical-align: middle;
+}
+nav ul li a{
+    color:white;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+
+}
+nav ul li a:hover{
+	color: #1C9DC4
+}
+nav ul li a img{
+    width: 100px;
+    height: 100%
+}
+.rfrom{
+	padding: 100px 0;
+	float: right;
+
+}
+form {
+    width: 360px;
+    margin: 0 auto;
+    background: #2ECC71;
+    padding: 25px;
+}
+h2{
+	text-align: center;
+	padding-bottom: 10px;
+	margin: 0 0 25px;
+	color: white;
+}
+input{
+  width: 100%;
+  border: 1px solid #2ECC71;
+  padding: 15px 10px;
+  font-size: 16px;
+}
+.btn{
+	background:#239b56;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.title{
+	position: absolute;
+	top: 28.7%;
+	left: 10%;
+	transform:translate(-7%,-7%);
+	font-size: 20px;
+	color:#fff;
+
+}
+h3{
+	font-size: 14px;
+
+}
+.button{
+	position: absolute;
+	top: 51.5%;
+	left: 8.5%;
+	transform:translate(-10%,-10%);
+	font-size: 20px;
+	color:#fff;
+
+}
+.btn1{
+	background:#239b56;
+	border:1px solid #fff;
+	padding: 10px 27px;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 30px;
+
+}
+
+.text{
+	text-align: center;
+	color: white;
+	padding-bottom: 26px;
+}
